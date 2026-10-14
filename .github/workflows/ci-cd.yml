@@ -21,7 +21,7 @@ jobs:
 
       - name: 2. Build Stage
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: 3. Automated Testing Stage
