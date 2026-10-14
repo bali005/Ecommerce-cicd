@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-cicd",
+  "version": "1.0.0",
+  "description": "Agile E-Commerce CI/CD Demo",
+  "main": "cart.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "npx eslint cart.js",
+    "build": "node -e \"console.log('Build completed successfully!')\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "jest": "^29.0.0"
+  }
+}
